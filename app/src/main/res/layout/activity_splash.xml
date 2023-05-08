@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black"
+    tools:context=".activity.splash_activity.SplashActivity">
+
+    <ImageView
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_gravity="center"
+        android:src="@drawable/app_icon"/>
+
+    <com.example.makeanoteapp.customfont.CustomTextViewBold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notemaker"
+        style="@style/white_20"
+        android:letterSpacing="0.06"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:includeFontPadding="false"/>
+
+</LinearLayout>

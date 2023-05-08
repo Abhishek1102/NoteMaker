@@ -1,0 +1,284 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MakeANoteApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        //status bar color
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="white_6">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_6sdp</item>
+    </style>
+
+    <style name="white_8">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_8sdp</item>
+    </style>
+
+    <style name="white_9">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_9sdp</item>
+    </style>
+
+    <style name="white_10">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+    </style>
+
+    <style name="white_11">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_11sdp</item>
+    </style>
+
+    <style name="white_12">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+
+    <style name="white_13">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+    </style>
+
+    <style name="white_14">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+    <style name="white_15">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+    </style>
+
+    <style name="white_16">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+    </style>
+
+    <style name="white_18">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_18sdp</item>
+    </style>
+
+    <style name="white_20">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_20sdp</item>
+    </style>
+
+    <style name="white_22">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_22sdp</item>
+    </style>
+
+    <style name="white_24">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_24sdp</item>
+    </style>
+
+    <style name="white_26">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_26sdp</item>
+    </style>
+
+    <style name="black_6">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_6sdp</item>
+    </style>
+
+    <style name="black_7">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_7sdp</item>
+    </style>
+
+    <style name="black_8">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_8sdp</item>
+    </style>
+
+    <style name="black_9">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_9sdp</item>
+    </style>
+
+    <style name="black_10">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+    </style>
+
+    <style name="black_11">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_11sdp</item>
+    </style>
+
+    <style name="black_12">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+
+    <style name="black_13">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+    </style>
+
+    <style name="black_14">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+    <style name="black_16">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+    </style>
+
+    <style name="black_18">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_18sdp</item>
+    </style>
+
+    <style name="black_20">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_20sdp</item>
+    </style>
+
+    <style name="black_22">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_23sdp</item>
+    </style>
+
+    <style name="black_24">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_24sdp</item>
+    </style>
+
+    <style name="black_26">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_26sdp</item>
+    </style>
+
+    <style name="gray_8">
+        <item name="android:textColor">@color/darker_gray</item>
+        <item name="android:textSize">@dimen/_8sdp</item>
+    </style>
+
+    <style name="gray_9">
+        <item name="android:textColor">@color/darker_gray</item>
+        <item name="android:textSize">@dimen/_9sdp</item>
+    </style>
+
+    <style name="gray_10">
+        <item name="android:textColor">@color/darker_gray</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+    </style>
+
+    <style name="gray_11">
+        <item name="android:textColor">@color/darker_gray</item>
+        <item name="android:textSize">@dimen/_11sdp</item>
+    </style>
+
+    <style name="gray_12">
+        <item name="android:textColor">@color/darker_gray</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+
+    <style name="gray_13">
+        <item name="android:textColor">@color/darker_gray</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+    </style>
+
+    <style name="gray_14">
+        <item name="android:textColor">@color/darker_gray</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+    <style name="gray_16">
+        <item name="android:textColor">@color/darker_gray</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+    </style>
+
+    <style name="gray_18">
+        <item name="android:textColor">@color/darker_gray</item>
+        <item name="android:textSize">@dimen/_18sdp</item>
+    </style>
+
+    <style name="gray_20">
+        <item name="android:textColor">@color/darker_gray</item>
+        <item name="android:textSize">@dimen/_20sdp</item>
+    </style>
+
+    <style name="yellow_18">
+        <item name="android:textColor">@color/yellow_info</item>
+        <item name="android:textSize">@dimen/_18sdp</item>
+    </style>
+
+    <style name="red_18">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">@dimen/_18sdp</item>
+    </style>
+
+    <style name="HintTextLabel" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">@dimen/_8sdp</item>
+    </style>
+
+    <style name="Edittext_11">
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/hint_gray</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/_11sdp</item>
+    </style>
+
+    <style name="Edittext_13">
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/hint_gray</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+    </style>
+
+    <style name="Edittext_20">
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/hint_gray</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/_20sdp</item>
+    </style>
+
+    <style name="RoundedCornersDialog" parent="@style/Theme.MaterialComponents.Dialog">
+        <item name="dialogCornerRadius">@dimen/_8sdp</item>
+    </style>
+
+    <style name="SheetDialog" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+    </style>
+
+    <style name="CustomCardViewStyle" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_card_custom_corners</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay_card_custom_corners" parent="">
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeBottomRight">@dimen/_30sdp</item>
+        <item name="cornerSizeBottomLeft">@dimen/_30sdp</item>
+    </style>
+    <style name="MineCustomTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/_8sdp</item>
+        <item name="singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/_6sdp"
+    android:id="@+id/notes_container"
+    app:cardElevation="@dimen/_2sdp"
+    android:layout_marginVertical="@dimen/_5sdp"
+    android:layout_marginHorizontal="@dimen/_5sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/_5sdp"
+        android:paddingVertical="@dimen/_5sdp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.example.makeanoteapp.customfont.CustomTextViewSemiBold
+                android:id="@+id/tv_title"
+                style="@style/black_14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:ellipsize="marquee"
+                android:includeFontPadding="false"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:paddingVertical="@dimen/_6sdp"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="Title" />
+            
+            <ImageView
+                android:id="@+id/iv_pin"
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_15sdp"
+                android:layout_alignParentEnd="true"/>
+            
+        </RelativeLayout>
+
+        <com.example.makeanoteapp.customfont.CustomTextViewMedium
+            android:id="@+id/tv_notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notes"
+            style="@style/black_12"
+            android:maxLines="10"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:paddingVertical="@dimen/_6sdp"/>
+
+        <com.example.makeanoteapp.customfont.CustomTextView
+            android:id="@+id/tv_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:text="Date"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:paddingVertical="@dimen/_6sdp"
+            android:textColor="@color/dark_gray"
+            style="@style/black_10"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

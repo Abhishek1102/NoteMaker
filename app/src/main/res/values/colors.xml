@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#18191A</color>
+    <color name="white">#FFFAFA</color>
+
+-------------------------------------------------------------------
+    <color name="splash_bg">#FFFAFA</color>
+    <color name="dark_gray">#444444</color>
+    <color name="home_bg">#FFFAFA</color>
+    <color name="add_btn_bg">#ffdd00</color>
+    <color name="searchview_bg">#eef0eb</color>
+    
+<!--    notes colors-->
+    <item name="color_1" type="color">#82c0cc</item>
+    <item name="color_2" type="color">#f8d488</item>
+    <item name="color_3" type="color">#fcab64</item>
+    <item name="color_4" type="color">#52b788</item>
+    <item name="color_5" type="color">#ffa6c1</item>
+<!--    <item name="color_6" type="color">#FF0099CC</item>-->
+<!--    <item name="color_7" type="color">#FF9933CC</item>-->
+<!--    <item name="color_8" type="color">#FF669900</item>-->
+<!--    <item name="color_9" type="color">#FFFF8800</item>-->
+<!--    <item name="color_10" type="color">#FFCC0000</item>-->
+
+    <integer-array name="androidcolors">
+        <item>@color/color_1</item>
+        <item>@color/color_2</item>
+        <item>@color/color_3</item>
+        <item>@color/color_4</item>
+        <item>@color/color_5</item>
+<!--        <item>@color/color_6</item>-->
+<!--        <item>@color/color_7</item>-->
+<!--        <item>@color/color_8</item>-->
+<!--        <item>@color/color_9</item>-->
+<!--        <item>@color/color_10</item>-->
+    </integer-array>
+
+-------------------------------------------------------------------
+    
+    <!--    my colors-->
+    <color name="success">#1C9A00</color>
+    <color name="error">#FF363B</color>
+
+    <color name="bg_white">#F8F8F8</color>
+
+    <color name="view_color">#F1F1F1</color>
+    <color name="gray">#F5F5F7</color>
+    <color name="light_gray">#E8E8E8</color>
+    <color name="darker_gray">#787878</color>
+    <color name="light_darker_gray">#BFBFBF</color>
+    <color name="shimmer_bg">#dddddd</color>
+    <color name="black_op_8">#CC273043</color>
+
+    <color name="black_alpha">#A90A0A0B</color>
+    <color name="black_alpha_1">#800A0A0B</color>
+    <color name="black_alpha_1_5">#1A0A0A0B</color>
+    <color name="black_alpha_2">#0A0A0A0B</color>
+    <color name="backgroundGrey">#212121</color>
+    <color name="cardBlack">#252A34</color>
+    <color name="headerGrey">#262626</color>
+    <color name="fieldGrey">#363636</color>
+    <color name="softGrey">#3C3C3C</color>
+    <color name="outlineGrey">#55565A</color>
+    <color name="ratingGrey">#6B6C71</color>
+    <color name="gray_light_dark">#C5C5C5</color>
+    <color name="theme_color_dark">#1E2BBB</color>
+    <color name="theme_color_light">#318BD7</color>
+    <color name="red">#FF363B</color>
+    <color name="edt_border_color">#E1E6EB</color>
+    <color name="light_sky_blue">#E4F5FC</color>
+    <color name="edittext_bg">#F7F8FC</color>
+    <color name="back_arrow_bg">#F5F7F9</color>
+    <color name="image_tint">#8196B2</color>
+    <color name="theme_color_alpha">#33000000</color>
+    <color name="white_alpha">#33FFFFFF</color>
+    <color name="white_alpha_1">#66FFFFFF</color>
+
+    <color name="yellow_info">#F0990D</color>
+    <color name="bg_yellow">#FFF7EB</color>
+
+    <color name="blue">#236BFE</color>
+    <color name="blue_alpha">#1A236BFE</color>
+    <color name="purple">#C25DFF</color>
+    <color name="green">#17C300</color>
+
+    <color name="dark_purple">#7456FB</color>
+    <color name="dark_purple_alpha">#337456FB</color>
+
+    <color name="right">#8EC3A7</color>
+    <color name="wrong">#DC5356</color>
+    <color name="skip">#5FB7E5</color>
+
+    <color name="yellow">#DD8E0F</color>
+    <color name="brown">#CBAB79</color>
+    <color name="color1">#FFC000</color>
+    <color name="color2">#FF5353</color>
+    <color name="color3">#5FB7E5</color>
+    <color name="color8">#e61d25</color>
+    <color name="green_alpha">#1A17C300</color>
+    <color name="green_dark">#13A100</color>
+    <color name="off_gray">#66000000</color>
+    <color name="transprent">#00000000</color>
+
+    <color name="hint_gray">#707070</color>
+    <color name="walk_1">#DC5D6F</color>
+    <color name="walk_2">#FF8B61</color>
+    <color name="walk_3">#FF88A6</color>
+    <color name="walk_4">#9A8F97</color>
+    <color name="walk_5">#EECFB6</color>
+    <color name="walk_6">#A3B18A</color>
+    <color name="walk_7">#64B6AC</color>
+    <color name="dark_sky_blue">#2AE1CC</color>
+    <color name="hint_color">#D523887D</color>
+    <color name="txt_hint_color">#398E85</color>
+
+</resources>
